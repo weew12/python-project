@@ -1,0 +1,37 @@
+主页面：
+http://www.win4000.com/zt/dongman_+页码+.html
+eg:
+http://www.win4000.com/zt/dongman_1.html
+
+图片集：
+所有图片集都放在了一个无需列表中
+<ul class="clearfix">
+
+单个图片集合分析：
+
+页面：
+http://www.win4000.com/wallpaper_detail_+参数+.html
+
+图片缩略图放在无需列表中：
+<li class="current">
+高清图片在
+href="http://www.win4000.com/wallpaper_detail_+参数+.html"
+中
+
+可以通过第一个页面将所有的高清图片链接筛选出来
+进入页面的查看原图链接页面即可
+<div class="paper-conyral">
+<a href="http://www.win4000.com/wallpaper_big_152464.html" class="message" target="_blank">
+查看原图</a>
+</div>
+
+查看原图链接页面：
+
+
+<div id="picBox" class="picBox">
+中可以筛出高清图片链接
+
+
+
+经过requests的测试发现，本次爬取不用浏览器模拟
+
