@@ -1,3 +1,2 @@
 # repository for python project
->> this is the repository for some of my python projects 
->> and just for study or for fun 
+>> 这是一些平时写过的python小程序 爬虫 tensorflow 等等 
