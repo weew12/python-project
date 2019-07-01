@@ -1,0 +1,126 @@
+var VideoListJson = [
+		["西瓜影音", [
+			["第1集", "ftp://a.gbl.114s.com:20320/6010/僵尸国度第四季018.mp4", "xigua"],
+			["第2集", "ftp://a.gbl.114s.com:20320/6556/僵尸国度第四季028.mkv", "xigua"],
+			["第3集", "ftp://a.gbl.114s.com:20320/5492/僵尸国度第四季038.mp4", "xigua"],
+			["第4集", "ftp://a.gbl.114s.com:20320/1359/僵尸国度第四季048.mp4", "xigua"],
+			["第5集", "ftp://a.gbl.114s.com:20320/9587/僵尸国度第四季058.mp4", "xigua"],
+			["第6集", "ftp://a.gbl.114s.com:20320/9257/僵尸国度第四季068.mkv", "xigua"],
+			["第7集", "ftp://a.gbl.114s.com:20320/7631/僵尸国度第四季078.mkv", "xigua"],
+			["第8集", "ftp://a.gbl.114s.com:20320/4125/僵尸国度第四季088.mp4", "xigua"],
+			["第9集", "ftp://a.gbl.114s.com:20320/2614/僵尸国度第四季098.mkv", "xigua"],
+			["第10集", "ftp://a.gbl.114s.com:20320/1417/僵尸国度第四季108.mp4", "xigua"],
+			["第11集", "ftp://a.gbl.114s.com:20320/9097/僵尸国度第四季118.mp4", "xigua"],
+			["第12集", "ftp://a.gbl.114s.com:20320/2602/僵尸国度第四季128.mp4", "xigua"],
+			["第13集", "ftp://a.gbl.114s.com:20320/4797/僵尸国度第四季138.mkv", "xigua"]
+		]],
+		["云播", [
+			["第1集", "https://cdn.okokyun.com/share/jIuLPfl7EiMF8NJ7T", "yunbo"],
+			["第2集", "https://cdn.okokyun.com/share/361Sbbi5d3R98yRAq", "yunbo"],
+			["第3集", "https://cdn.okokyun.com/share/qJCCp9GPe8N78gBtJ", "yunbo"],
+			["第4集", "https://cdn.okokyun.com/share/KlF3mPiZWBFX8dFb8", "yunbo"],
+			["第5集", "https://cdn.okokyun.com/share/MTpLgLZXfVMw8LM3h", "yunbo"],
+			["第6集", "https://cdn.okokyun.com/share/ucv2eJFH4xyw8TqH9", "yunbo"],
+			["第7集", "https://bobo.okokbo.com/share/Eu89ImJ2hTyT8Bbpk", "yunbo"],
+			["第8集", "https://bobo.okokbo.com/share/0WnhE2fk9b5E8t5ne", "yunbo"],
+			["第9集", "https://bobo.okokbo.com/share/PAcJknu7rifr88Llb", "yunbo"],
+			["第10集", "https://bobo.okokbo.com/share/Bm9yUwO9KBNK8PC2C", "yunbo"],
+			["第11集", "https://bobo.okokbo.com/share/ZA8TMMaQA4p78Vqxf", "yunbo"],
+			["第12集", "https://bobo.okokbo.com/share/ABFg0jCUIHZn8HTrP", "yunbo"]
+		]],
+		["百度网盘", [
+			["第1集", "https://pan.baidu.com/s/1c2A8jHZU", "yun"],
+			["第2集", "https://pan.baidu.com/s/1jHM885mu", "yun"],
+			["第3集", "https://pan.baidu.com/s/1jII8fxrS", "yun"],
+			["第4集", "https://pan.baidu.com/s/1jII8fxrS", "yun"],
+			["第5集", "https://pan.baidu.com/s/1dE18e6YH", "yun"],
+			["第6集", "https://pan.baidu.com/s/1mif82f6g", "yun"],
+			["第7集", "https://pan.baidu.com/s/1eRM8cc9O", "yun"],
+			["第8集", "https://pan.baidu.com/s/1pKG8uwl1", "yun"],
+			["第9集", "https://pan.baidu.com/s/1hsm8xaVq", "yun"],
+			["第10集", "https://pan.baidu.com/s/1hrD8l9Uc", "yun"],
+			["第11集", "https://pan.baidu.com/s/1jIg8Uf2Y", "yun"],
+			["第12集", "https://pan.baidu.com/s/1dFj8MBFr", "yun"],
+			["第13集", "https://pan.baidu.com/s/1qYE88w92", "yun"]
+		]],
+		["腾讯微云", [
+			["第1-13集", "https://url.cn/5pP8ps94", "weiyun"]
+		]],
+		["云播二", [
+			["第01集", "https://sina.com-h-sina.com/20180905/18067_5102aee2/index.8m3u8", "yunbo2"],
+			["第02集", "https://sina.com-h-sina.com/20180905/18068_b4d86f42/index.8m3u8", "yunbo2"],
+			["第03集", "https://sina.com-h-sina.com/20180905/18069_423c2480/index.8m3u8", "yunbo2"],
+			["第04集", "https://sina.com-h-sina.com/20180905/18070_b7ed5589/index.8m3u8", "yunbo2"],
+			["第05集", "https://sina.com-h-sina.com/20180905/18071_c689057f/index.8m3u8", "yunbo2"],
+			["第06集", "https://sina.com-h-sina.com/20180905/18072_fca11562/index.8m3u8", "yunbo2"],
+			["第07集", "https://sina.com-h-sina.com/20180905/18073_f0b30ba7/index.8m3u8", "yunbo2"],
+			["第08集", "https://sina.com-h-sina.com/20180905/18074_e631f0a9/index.8m3u8", "yunbo2"],
+			["第09集", "https://sina.com-h-sina.com/20180905/18075_1fc7bd4d/index.8m3u8", "yunbo2"],
+			["第10集", "https://sina.com-h-sina.com/20180905/18076_5d1f24c8/index.8m3u8", "yunbo2"],
+			["第11集", "https://sina.com-h-sina.com/20180905/18077_5c9d34ab/index.8m3u8", "yunbo2"],
+			["第12集", "https://sina.com-h-sina.com/20180905/18078_9e76835d/index.8m3u8", "yunbo2"],
+			["第13集", "https://sina.com-h-sina.com/20180905/18079_70b332a9/index.8m3u8", "yunbo2"]
+		]]
+	],
+	urlinfo = 'http://' + document.domain + '/video/23148-<from>-<pos>.html';
+
+
+partLen = partArr.length - 1;
+if (Number(param[1]) < partLen) {
+	nexthref = urlinfo.replace("<from>", playBeginFrom == 1 ? param[0] + 1 : param[0]).replace("<pos>", nextnum);
+	nexturl = unCodeUrl(unescape(partArr[Number(param[1]) + 1][1]));
+} else {
+	nexthref = "";
+	nexturl = ""
+}
+if (Number(param[1]) < 1) {
+	prevhref = "";
+} else {
+	prevhref = urlinfo.replace("<from>", playBeginFrom == 1 ? param[0] + 1 : param[0]).replace("<pos>", prevnum);
+}
+//}
+
+function unCodeUrl(url) {
+	var s, vurl;
+	if (from == "bdhd" || from == "qvod") {
+		s = url.split("|");
+		if (s[0].toLowerCase().indexOf("ed2k://") == 0) {
+			vurl = s[0] + "|" + s[1] + "|" + s[2] + "|" + s[3] + "|" + s[4].substring(0, s[4].length - 5) + s[4].substring(s[4].length - 4) + "|";
+		} else {
+			vurl = s[0] + "|" + s[1].substring(0, s[1].length - 5) + s[1].substring(s[1].length - 4) + "|" + s[2] + "|";
+		}
+	} else if (from == "gvod") {
+		s = url.replace("gvod://", "").split("/");
+		vurl = "gvod://" + s[0] + "/" + s[1].substring(0, s[1].length - 5) + s[1].substring(s[1].length - 4) + "/" + s[2] + "/" + s[3];
+	} else {
+		vurl = url.substring(0, url.length - 5) + url.substring(url.length - 4);
+	}
+	return vurl;
+}
+
+function xia() {
+	if (nexthref != "") {
+		window.location.href = nexthref;
+	} else {
+		alert("已经是最后一集了！");
+	}
+}
+
+function shang() {
+	if (prevhref == "") {
+		alert("已经是最前一集了！");
+	} else {
+		window.location.href = prevhref;
+	}
+}
+
+function PlayList(part, from) {
+	for (i = 0; i <= partLen; i++) {
+		playlink = urlinfo.replace("<from>", from).replace("<pos>", i);
+		if (part == i) {
+			document.write("<li><a title='" + partArr[param[i]][0] + "' href='" + playlink + "' class='red'>" + partArr[param[i]][0] + "</a></li>");
+		} else {
+			document.write("<li><a title='" + partArr[param[i]][0] + "' href='" + playlink + "'>" + partArr[param[i]][0] + "</a></li>");
+		}
+	}
+}
