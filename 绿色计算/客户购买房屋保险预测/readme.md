@@ -8,6 +8,7 @@
 
 ## 训练集数据文件：
 本关涉及到的训练集数据：train.csv：  
+
 |ID|CoverageField2A|CoverageField4B|…|TARGET|
 |:----:|:----:|:----:|:----:|:----:|
 |6677|17|23|…|0|
