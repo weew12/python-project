@@ -253,7 +253,7 @@ Python解释器自动将名称__mangled扩展为_MangledGlobal__mangled，因为
     >>> _.append(3)
     >>> _
     [1, 2, 3]
-## ython下划线命名模式 - 小结  
+## python下划线命名模式 - 小结  
 ***
 以下是一个简短的小结，即“速查表”，罗列了我在本文中谈到的五种Python下划线模式的含义：  
 ![](img/1.jpg)
