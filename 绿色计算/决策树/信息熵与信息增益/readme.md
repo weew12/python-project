@@ -74,26 +74,26 @@
 那信息增益算出来之后有什么意义呢？回到读心术的问题，为了我能更加准确的猜出你心中所想，我肯定是问的问题越好就能猜得越准！换句话来说我肯定是要想出一个信息增益最大（减少不确定性程度最高）的问题来问你。其实ID3算法也是这么想的。ID3算法的思想是从训练集D中计算每个特征的信息增益，然后看哪个最大就选哪个作为当前结点。然后继续重复刚刚的步骤来构建决策树。  
 
 ## 编程要求  
-根据提示，在右侧编辑器补充代码，完成calcInfoEntropy函数实现计算信息熵、calcHDA函数实现计算条件熵、calcInfoGain函数实现计算信息增益。  
-calcInfoEntropy函数中的参数:  
-feature：数据集中的特征，类型为ndarray  
-label：数据集中的标签，类型为ndarray  
-calcHDA函数中的参数:  
-feature：数据集中的特征，类型为ndarray  
-label：数据集中的标签，类型为ndarray  
-index：需要使用的特征列索引，类型为int  
-value：index所表示的特征列中需要考察的特征值，类型为int  
-calcInfoGain函数中的参数:  
-feature：测试用例中字典里的feature  
-label：测试用例中字典里的label  
-index：测试用例中字典里的index，即feature部分特征列的索引  
+    根据提示，在右侧编辑器补充代码，完成calcInfoEntropy函数实现计算信息熵、calcHDA函数实现计算条件熵、calcInfoGain函数实现计算信息增益。  
+    calcInfoEntropy函数中的参数:  
+    feature：数据集中的特征，类型为ndarray  
+    label：数据集中的标签，类型为ndarray  
+    calcHDA函数中的参数:  
+    feature：数据集中的特征，类型为ndarray  
+    label：数据集中的标签，类型为ndarray  
+    index：需要使用的特征列索引，类型为int  
+    value：index所表示的特征列中需要考察的特征值，类型为int  
+    calcInfoGain函数中的参数:  
+    feature：测试用例中字典里的feature  
+    label：测试用例中字典里的label  
+    index：测试用例中字典里的index，即feature部分特征列的索引  
 ## 测试说明  
 平台会对你编写的代码进行测试，期望您的代码根据输入来输出正确的信息增益，以下为其中一个测试用例：  
 测试输入：  
-{'feature':[[0, 1], [1, 0], [1, 2], [0, 0], [1, 1]], 'label':[0, 1, 0, 0, 1], 'index': 0}  
+`{'feature':[[0, 1], [1, 0], [1, 2], [0, 0], [1, 1]], 'label':[0, 1, 0, 0, 1], 'index': 0} ` 
 
 预期输出：  
-0.419973  
+`0.419973  `
 
 提示：  
 计算log可以使用NumPy中的log2函数  
