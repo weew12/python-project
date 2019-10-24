@@ -1,0 +1,18 @@
+[
+{"title": "理解行式数据库和列式数据库的区别", "p_content": "转载：jianshu.com/p/ad2533e5cfaa理解行式数据库和列式数据库的区别导语：\n    随着大数据的发展，现在出现的...", "datetime": "2019-9-28 17:12"},
+{"title": "垂直拓展与水平拓展", "p_content": "转载：https://www.iteye.com/blog/yunjiechao-163-com-2124949理解水平扩展和垂直扩展...", "datetime": "2019-9-28 17:12"},
+{"title": "leetcode :两数字相加", "p_content": "leetcode :两数字相加题目描述:给出两个非空的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且...", "datetime": "2019-9-28 17:12"},
+{"title": "IntelliJ IDEA导入JDBC jar包", "p_content": "1.打开IDEA2.File -> ProjectStructure3.Modules -> Dependencies4....", "datetime": "2019-9-28 17:12"},
+{"title": "Python中下划线的5种含义", "p_content": "本文转载自知乎https://zhuanlan.zhihu.com/p/36173202Python中下划线的5种含义  本文介绍了P...", "datetime": "2019-9-28 17:12"},
+{"title": "git push 失败提示无法连接", "p_content": "内容转载：CSDN:https://blog.csdn.net/Boring_Wednesday/article/details/80...", "datetime": "2019-7-22 17:28"},
+{"title": "xshell 连接 virtualbox 下的ubuntu 虚拟机问题", "p_content": "之前在virtualbox安装ubuntu 后一直用的图形界面。电脑配置不行，还是太卡了，想着用Xshell连接算了。准备：1.vir...", "datetime": "2019-7-22 17:28"},
+{"title": "ubuntu 下apt-get install 安装报错 Could not get lock /var/lib/dpkg/lock", "p_content": "ubuntu 常见错误–Could not get lock /var/lib/dpkg/lock 通过终端安装程序sudo apt-...", "datetime": "2019-7-22 17:28"},
+{"title": "尝试代理爬取音乐资源(不怕被封ip了，美滋滋)", "p_content": "部分代码(没来得及优化了，有点随意)：# -*- coding: utf-8 -*-\n\n\"\"\"\n   F...", "datetime": "2019-7-22 17:28"},
+{"title": "存个爬取的歌单到数据库，注意细节！！！", "p_content": "爬取数据为json格式如下：用pymysql模块 加 os 模块，数据库为mysql:代码如下：import json\nimport ...", "datetime": "2019-7-22 17:28"},
+{"title": "json.dump() 出现保存文件的中文为unicode原形式的问题解决方案", "p_content": "爬取文件保存为json 使用的json模块的dump()函数，出现文件中的中文出错如下所示：解决方案：我们知道，python中的字符串...", "datetime": "2019-5-8 20:00"},
+{"title": "cmd 连接mysql 报错", "p_content": "cmd使用mysql服务时报错:解决方法：找到mysql安装目录下的bin目录，找到mysqld.exe程序。打开cmd，创建wind...", "datetime": "2019-5-8 20:00"},
+{"title": "数据库与数据仓库的本质区别是什么", "p_content": "摘自知乎：数据库 与 数据仓库的本质区别是什么？作者：陈诚链接：https://www.zhihu.com/question/2062...", "datetime": "2019-5-8 20:00"},
+{"title": "test1", "p_content": "test1", "datetime": "2019-5-8 20:00"},
+{"title": "scrapy 学习(1)", "p_content": "创建项目:在指定目录下打开命令行：scrapy startproject 项目名称scrapy 会在打开的目录下创建一个scrapy项...", "datetime": "2019-5-8 20:00"},
+{"title": "scrapy--1", "p_content": "入门案例学习目标创建一个Scrapy项目定义提取的结构化数据(Item)编写爬取网站的 Spider 并提取出结构化数据(Item)编...", "datetime": "2019-4-23 22:18"}
+]
